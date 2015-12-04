@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.button {
+    box-shadow: -7px 7px 10px #888888;
+    background-color: rgba(150, 200, 150, 0.5);
+    margin: 25px auto;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.75em;
+}
+
+article, #quote {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 3px #888888;
+    font-family: 'Gabriola', sans-serif;
+    font-size: 2em;
+}
+body {
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: column nowrap;
+    /* position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -250px;
+    margin-right: -250px; */
+}
+
+#quote {
+    border-radius: 10px;
+    box-shadow: -7px 10px 15px #888888;
+    padding: 0px 20px;
+}
